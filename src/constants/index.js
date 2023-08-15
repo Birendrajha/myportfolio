@@ -23,6 +23,10 @@ import {
     jobit,
     tripguide,
     threejs,
+    bhoomikapng,
+    sagarpng,
+    abhinavpng,
+    mtappng
   } from "../assets";
   
   export const navLinks = [
@@ -42,19 +46,19 @@ import {
   
   const services = [
     {
-      title: "Web Developer",
+      title: "React Web Developer",
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "Node js Developer",
       icon: mobile,
     },
     {
-      title: "Backend Developer",
+      title: "Javascript",
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "Typescript",
       icon: creator,
     },
   ];
@@ -117,10 +121,10 @@ import {
   const experiences = [
     {
       title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      company_name: "Mtap Technologies",
+      icon: mtappng,//starbucks,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "March 2021 - Present",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -128,79 +132,53 @@ import {
         "Participating in code reviews and providing constructive feedback to other developers.",
       ],
     },
+    
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
-      iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
+      title: "Full StackDeveloper",
+      company_name: "Newton School",
+      icon: 'https://yt3.googleusercontent.com/ytc/AOPolaRSHsDwHAx9ZB6yc6HDbjCPM-Oq9KxO0BRYcPaD=s900-c-k-c0x00ffffff-no-rj',//shopify,
       iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      date: "Oct 2020 - feb 2021",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Have a training for 6 months in Developing and maintaining web applications using React.js ,Node js,Express js and  other related technologies. Under this period of time i have gone through various technologies and learn about building and maintaining scalable code",
+        
       ],
     },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
+   
   ];
   
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
+        "I thought it was impossible to make a website as beautiful as our product, but Birendra proved me wrong.Great as a colleague and as a friend to work with",
+      name: "Bhoomika R",
+      designation: "Test Engineer",
+      company: "Mtap Technologies",
+      image: bhoomikapng,//"https://randomuser.me/api/portraits/women/4.jpg",
     },
     {
       testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
+        "I've never met a web developer who truly cares about their Code Quality and code reusability write  efficient, scalable, and user-friendly solutions that solve real-world problems.",
+      name: "Vidya Sagar",
+      designation: "Team Lead",
+      company: "Mtap Technologies",
+      image: sagarpng,
     },
     {
       testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
+        "After Birendra optimized our codebase, our traffic decreased by 50%. We can't thank them enough!",
+      name: "Abhinav",
+      designation: "Senior Software Engineer",
+      company: "Mtap Technologies",
+      image:  abhinavpng
     },
   ];
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Stock Management",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Web-based platform that allows users and admin to search for products item ,move to their cart and place order. While Admin has separate dashboard to update the stock and maintain user data and invoice.",
       tags: [
         {
           name: "react",
@@ -211,17 +189,17 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "nodejs",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: 'https://e7.pngegg.com/pngimages/857/907/png-clipart-inventory-management-software-supply-chain-management-inventory-control-warehouse-miscellaneous-company.png',
+      source_code_link: "https://github.com/Birendrajha/flip_frontend",
     },
     {
-      name: "Job IT",
+      name: "Cricketers Auction List",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Web application that enables users to search ,filter and sort the player list based on their rankings,score  points, and view detailed information about selected PLayer .",
       tags: [
         {
           name: "react",
@@ -232,33 +210,33 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "material-ui",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: 'https://www.pngall.com/wp-content/uploads/2017/04/Indian-Premier-League-New-Logo.png',
+      source_code_link: "https://github.com/Birendrajha/front-end-assignment-cricketers-app",
     },
     {
-      name: "Trip Guide",
+      name: "User Authentication Login",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "A complete secured Signup and login app using hashed and encrypted password stored in mongodb database.",
       tags: [
         {
-          name: "nextjs",
+          name: "node js",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "mongoDb",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "jwt and becryptjs",
           color: "pink-text-gradient",
         },
       ],
       image: tripguide,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/Birendrajha/user-authentication-login",
     },
   ];
   

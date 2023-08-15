@@ -30,7 +30,10 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
-
+import bhoomikapng from "./bhoomika.png";
+import sagarpng from "./sagar.png";
+import abhinavpng from "./abhinav.png";
+import mtappng from "./mtap.png";
 export {
   customlogo,
   logo,
@@ -61,4 +64,8 @@ export {
   carrent,
   jobit,
   tripguide,
+  bhoomikapng,
+  sagarpng,
+  abhinavpng,
+  mtappng
 };
