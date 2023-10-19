@@ -34,6 +34,7 @@ import bhoomikapng from "./bhoomika.png";
 import sagarpng from "./sagar.png";
 import abhinavpng from "./abhinav.png";
 import mtappng from "./mtap.png";
+import scribeemrpng from "./scribeemrlogo.png";
 export {
   customlogo,
   logo,
@@ -67,5 +68,6 @@ export {
   bhoomikapng,
   sagarpng,
   abhinavpng,
-  mtappng
+  mtappng,
+  scribeemrpng
 };
